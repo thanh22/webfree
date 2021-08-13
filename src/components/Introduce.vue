@@ -1,9 +1,11 @@
 <template>
-  <div class="row">
-    <div class="col-6">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/pKm3AXC71aQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="d-flex justify-content-between mt-5">
+    <div class="width-49">
+        <div class="d-flex flex-wrap">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pKm3AXC71aQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
-    <div class="background-image-new col-6" >
+    <div class="background-image-new width-49" >
         <h3>THE MOST IMPORTANT NEWS</h3>
         <div class="row">
             <div class="col-9">
@@ -34,5 +36,8 @@ export default {
 <style lang="scss" scoped>
 .background-image-new {
     background-image: url('../assets/images/background-new.jpg');
+}
+.width-49 {
+    width: 49%;
 }
 </style>

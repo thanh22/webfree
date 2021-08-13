@@ -13,6 +13,7 @@
         </div>
       </div> -->
       <Introduce></Introduce>
+      <Address></Address>
       <Footer></Footer>
     </div>
   </div>
@@ -23,6 +24,7 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import NewProduct from "./components/NewProduct";
 import Introduce from "./components/Introduce";
+import Address from "./components/Address";
 import Footer from "./components/Footer";
 import LeftContent from "./components/LeftContent";
 import RightContent from "./components/RightContent";
@@ -32,6 +34,7 @@ export default {
    Banner,
    NewProduct,
    Introduce,
+   Address,
    Footer,
    LeftContent,
    RightContent,
@@ -44,7 +47,7 @@ export default {
   display: flex;
 }
 .background-image {
-  background-image: url('./assets/images/background.jpg');
+  background-image: url('./assets/images/background2.jpg');
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
