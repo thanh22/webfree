@@ -29,6 +29,37 @@
                 <p>G-mail: </p>
             </div>
         </div>
+        <div class="d-flex justify-content-between">
+            <div>
+                <span>You are the <span>234234234</span> visitor</span>
+            </div>
+            <div>
+                <div>
+                    <p>
+                        <i class="fas fa-clock"></i>
+                        Online: <span>2</span>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <i class="fas fa-calendar-week"></i>
+                        Day: <span>8</span>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <i class="fas fa-calendar"></i>
+                        Week: <span>88</span>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <i class="fas fa-user-alt"></i>
+                        Visiter: <span>223</span>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
   </div>
 </template>
@@ -63,5 +94,8 @@ ul {
     flex-wrap: wrap;
     height: 180px;
     overflow: hidden;
+}
+p {
+    margin-bottom: 0;
 }
 </style>

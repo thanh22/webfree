@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>this is footer</h1>
+  <div class="background-gray text-center p-2">
+    <span class="color-white">Design by me</span>
   </div>
 </template>
 
@@ -11,5 +11,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.background-gray {
+  background: gray;
+}
+.color-white {
+  color: white;
+}
 </style>

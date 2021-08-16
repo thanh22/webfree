@@ -22,9 +22,10 @@
               Product
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item text-dark" href="#">Link 1</a>
-              <a class="dropdown-item text-dark" href="#">Link 2</a>
-              <a class="dropdown-item text-dark" href="#">Link 3</a>
+              <a class="dropdown-item text-dark" href="#">All</a>
+              <a class="dropdown-item text-dark" href="#">F.R.L Combinations</a>
+              <a class="dropdown-item text-dark" href="#">Control Valves</a>
+              <a class="dropdown-item text-dark" href="#">Pneumatic Actuators</a>
             </div>
           </li>
           <li class="nav-item">
